@@ -4,4 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Opgave1UnitTest">
+      <HintPath>..\Opgave5TCPserver\Opgave5TCPserver\bin\Debug\net5.0\Opgave1UnitTest.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

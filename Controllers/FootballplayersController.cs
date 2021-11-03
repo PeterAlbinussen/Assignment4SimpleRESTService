@@ -15,7 +15,7 @@ namespace Assignment4SimpleRESTService.Controllers
     public class FootballplayersController : ControllerBase
     {
         private readonly FootballManagers _footballManagers = new FootballManagers();
-
+        
         // GET: api/<FootballplayersController>
         [HttpGet]
         public IEnumerable<FootballPlayer> Get()
